@@ -15,7 +15,7 @@ using Muslim.Validator;
 public static class DependencyInjectionService
 {
 
-    public static IServiceCollection AddAutoScoped(this IServiceCollection services)
+    private static IServiceCollection AddAutoScoped(this IServiceCollection services)
     {
 
 
@@ -58,7 +58,7 @@ public static class DependencyInjectionService
     }
 
 
-    public static IServiceCollection ConfigureValidator(this IServiceCollection services)
+    private static IServiceCollection ConfigureValidator(this IServiceCollection services)
     {
         services.AddValidatorsFromAssembly(AssemblyHelper.GetAssembly("Muslim.Application"));
 
@@ -69,7 +69,7 @@ public static class DependencyInjectionService
     }
 
 
-    public static IServiceCollection ConfigureInjectExtensions(this IServiceCollection services)
+    private static IServiceCollection ConfigureInjectExtensions(this IServiceCollection services)
     {
         InjectExtensions.SetServiceProvider(services.BuildServiceProvider());
 

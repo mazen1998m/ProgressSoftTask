@@ -30,8 +30,4 @@
     <ProjectReference Include="..\Muslim.Domain\Muslim.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
 </Project>

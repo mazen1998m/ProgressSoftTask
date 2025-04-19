@@ -1,4 +1,5 @@
-﻿using Muslim.ConfigureTable;
+﻿using Microsoft.EntityFrameworkCore;
+using Muslim.ConfigureTable;
 using Muslim.Domain.Enums;
 
 namespace Muslim.Domain.BusinessCards;
@@ -14,11 +15,12 @@ public class BusinessCard : Entity
     public string Photo { get; set; }
     public string Address { get; set; }
 
-    internal class Configration : ConfigureTable<BusinessCard>
+    internal class Configuration : ConfigureTable<BusinessCard>
     {
         protected override void ConfigureCustomizations()
         {
-
+            Builder.ToTable(nameof(BusinessCard) + "s");
         }
     }
+
 }

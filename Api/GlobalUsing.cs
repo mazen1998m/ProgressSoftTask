@@ -1,0 +1,1 @@
+﻿global using Api.Controllers.Base;

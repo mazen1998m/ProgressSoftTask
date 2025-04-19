@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Muslim.ConfigureTable" Version="5.0.0" />
+    <PackageReference Include="Muslim.DateOnlyTimeOnlyConverter" Version="2.0.1" />
+    <PackageReference Include="Muslim.Extensions" Version="2.0.0" />
+    <PackageReference Include="Muslim.Helpers" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

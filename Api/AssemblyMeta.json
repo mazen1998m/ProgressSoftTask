@@ -1,0 +1,59 @@
+[
+  {
+    "Name": "Muslim.Filter",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },
+
+  {
+    "Name": "Muslim.Application",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },
+  {
+    "Name": "Api",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },
+
+  {
+    "Name": "Muslim.Validator",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },
+  {
+    "Name": "Muslim.Result",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },  {
+    "Name": "Muslim.GenericService",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },
+  {
+    "Name": "Muslim.GenericRepository",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },
+
+  {
+    "Name": "Muslim.Domain",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  },
+  {
+    "Name": "Muslim.Data",
+    "Version": "1.0.0.0",
+    "Culture": "neutral",
+    "PublicKeyToken": "null"
+  }
+]
+  
